@@ -1,0 +1,61 @@
+Applications Graphics Acceleration Info:
+Uptime: 5579053 Realtime: 5579053
+
+** Graphics info for pid 5434 [com.kalantos.spitball] **
+
+Stats since: 39765106790ns
+Total frames rendered: 1022
+Janky frames: 803 (78.57%)
+90th percentile: 81ms
+95th percentile: 93ms
+99th percentile: 117ms
+Number Missed Vsync: 440
+Number High input latency: 0
+Number Slow UI thread: 357
+Number Slow bitmap uploads: 196
+Number Slow issue draw commands: 803
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache         68866240 / 75497472
+  LayerCache                  0 / 50331648 (numLayers = 0)
+  Layers total          0 (numLayers = 0)
+  RenderBufferCache           0 /  8388608
+  GradientCache               0 /  1048576
+  PathCache                   0 / 33554432
+  TessellationCache        2976 /  1048576
+  TextDropShadowCache     18400 /  6291456
+  PatchCache                  0 /   131072
+  FontRenderer 0 A8     1048576 /  1048576
+  FontRenderer 0 RGBA         0 /        0
+  FontRenderer 0 total  1048576 /  1048576
+Other:
+  FboCache                    0 /        0
+Total memory usage:
+  69936192 bytes, 66.70 MB
+
+Profile data in ms:
+
+	com.kalantos.spitball/com.kalantos.spitball.GUI.MenuActivity/android.view.ViewRootImpl@db1310d (visibility=0)
+Stats since: 39765106790ns
+Total frames rendered: 1022
+Janky frames: 803 (78.57%)
+90th percentile: 81ms
+95th percentile: 93ms
+99th percentile: 117ms
+Number Missed Vsync: 440
+Number High input latency: 0
+Number Slow UI thread: 357
+Number Slow bitmap uploads: 196
+Number Slow issue draw commands: 803
+
+View hierarchy:
+
+  com.kalantos.spitball/com.kalantos.spitball.GUI.MenuActivity/android.view.ViewRootImpl@db1310d
+  19 views, 25.07 kB of display lists
+
+
+Total ViewRootImpl: 1
+Total Views:        19
+Total DisplayList:  25.07 kB
+

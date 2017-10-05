@@ -1,0 +1,29 @@
+TASK com.kalantos.spitball id=91
+  ACTIVITY com.kalantos.spitball/.GUI.MenuActivity 706341c pid=2437
+    Local FragmentActivity ff846af State:
+      mCreated=truemResumed=true mStopped=false mReallyStopped=false
+      mLoadersStarted=true
+    FragmentManager misc state:
+      mHost=android.support.v4.app.FragmentActivity$HostCallbacks@c999abc
+      mContainer=android.support.v4.app.FragmentActivity$HostCallbacks@c999abc
+      mCurState=5 mStateSaved=false mDestroyed=false
+    View Hierarchy:
+      com.android.internal.policy.PhoneWindow$DecorView{3f45a45 V.E..... ... 0,0-2560,1440}
+        android.widget.LinearLayout{8e9a59a V.E..... ... 0,0-2560,1440}
+          android.view.ViewStub{b0c9ecb G.E..... ... 0,0-0,0 #10203a9 android:id/action_mode_bar_stub}
+          android.widget.FrameLayout{8c3a6a8 V.E..... ... 0,0-2560,1440}
+            android.support.v7.widget.FitWindowsLinearLayout{60555c1 V.E..... ... 0,0-2560,1440 #7f0e005d app:id/action_bar_root}
+              android.support.v7.widget.ViewStubCompat{4ac8166 G.E..... ... 0,0-0,0 #7f0e005e app:id/action_mode_bar_stub}
+              android.support.v7.widget.ContentFrameLayout{7c45ca7 V.E..... ... 0,0-2560,1440 #1020002 android:id/content}
+                android.widget.RelativeLayout{3008554 V.E..... ... 0,0-2560,1440}
+                  android.support.v7.widget.AppCompatButton{2d08cfd VFED..C. ... 1105,457-1455,632 #7f0e0082 app:id/button2}
+                  android.support.v7.widget.AppCompatButton{66f4df2 VFED..C. ... 1105,632-1455,807 #7f0e0083 app:id/button3}
+                  android.support.v7.widget.AppCompatButton{2501c43 VFED..C. ... 1105,807-1455,982 #7f0e0084 app:id/button4}
+                  android.support.v7.widget.AppCompatImageView{38aa2c0 V.ED.... ... 0,282-350,632 #7f0e0085 app:id/imageView0}
+                  android.support.v7.widget.AppCompatImageView{1dfbf9 V.ED.... ... 350,457-700,807 #7f0e0087 app:id/imageView1}
+                  android.support.v7.widget.AppCompatImageView{b20573e V.ED.... ... 189,632-539,982 #7f0e0086 app:id/imageView2}
+                  android.support.v7.widget.AppCompatImageView{f4e399f V.ED.... ... 1665,632-2015,982 #7f0e0088 app:id/imageView4}
+                  android.support.v7.widget.AppCompatImageView{9d72aec V.ED.... ... 1805,807-2155,1157 #7f0e0089 app:id/imageView3}
+                  android.support.v7.widget.AppCompatImageView{e395eb5 V.ED.... ... 1455,982-1805,1332 #7f0e008a app:id/imageView5}
+                  android.support.v7.widget.AppCompatImageView{e46a94a V.ED..C. ... 2155,142-2295,282 #7f0e008b app:id/imageView6}
+                  android.support.v7.widget.AppCompatTextView{4e6d0bb V.ED.... ... 1280,216-1280,282 #7f0e008c app:id/textView3}

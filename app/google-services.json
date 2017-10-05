@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "36383385786",
+    "firebase_url": "https://spit-ball-54931209.firebaseio.com",
+    "project_id": "spit-ball-54931209",
+    "storage_bucket": "spit-ball-54931209.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36383385786:android:8177b784516f3a71",
+        "android_client_info": {
+          "package_name": "com.kalantos.spitball"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36383385786-ohk6pdqdo97tqs0t7mpv06h2rue2g3mb.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "36383385786-kpg623ad9k6o2a7s27ro5fe6qhtdbt7h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kalantos.spitball",
+            "certificate_hash": "92b826f4c873333ae07956362e8ff560ab39fe2e"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCWScCiPfq0n7t1h1ZLZLAgNxIRri8630w"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "36383385786-ohk6pdqdo97tqs0t7mpv06h2rue2g3mb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,93 @@
+Applications Graphics Acceleration Info:
+Uptime: 2649296 Realtime: 2649296
+
+** Graphics info for pid 6017 [com.kalantos.spitball] **
+
+Stats since: 44720601520ns
+Total frames rendered: 104
+Janky frames: 77 (74.04%)
+90th percentile: 73ms
+95th percentile: 81ms
+99th percentile: 113ms
+Number Missed Vsync: 43
+Number High input latency: 0
+Number Slow UI thread: 33
+Number Slow bitmap uploads: 7
+Number Slow issue draw commands: 77
+
+Caches:
+Current memory usage / total memory usage (bytes):
+  TextureCache         63655462 / 75497472
+  LayerCache                  0 / 50331648 (numLayers = 0)
+  Layers total          0 (numLayers = 0)
+  RenderBufferCache           0 /  8388608
+  GradientCache               0 /  1048576
+  PathCache                   0 / 33554432
+  TessellationCache        2976 /  1048576
+  TextDropShadowCache     18400 /  6291456
+  PatchCache                576 /   131072
+  FontRenderer 0 A8     1048576 /  1048576
+  FontRenderer 0 RGBA         0 /        0
+  FontRenderer 0 total  1048576 /  1048576
+Other:
+  FboCache                    0 /        0
+Total memory usage:
+  64725990 bytes, 61.73 MB
+
+Profile data in ms:
+
+	com.kalantos.spitball/com.kalantos.spitball.GUI.MenuActivity/android.view.ViewRootImpl@8f90fcb (visibility=8)
+Stats since: 44720601520ns
+Total frames rendered: 104
+Janky frames: 77 (74.04%)
+90th percentile: 73ms
+95th percentile: 81ms
+99th percentile: 113ms
+Number Missed Vsync: 43
+Number High input latency: 0
+Number Slow UI thread: 33
+Number Slow bitmap uploads: 7
+Number Slow issue draw commands: 77
+
+	com.kalantos.spitball/com.kalantos.spitball.GUI.ChooseDifficultyActivity/android.view.ViewRootImpl@6ddc3a8 (visibility=8)
+Stats since: 44720601520ns
+Total frames rendered: 104
+Janky frames: 77 (74.04%)
+90th percentile: 73ms
+95th percentile: 81ms
+99th percentile: 113ms
+Number Missed Vsync: 43
+Number High input latency: 0
+Number Slow UI thread: 33
+Number Slow bitmap uploads: 7
+Number Slow issue draw commands: 77
+
+	com.kalantos.spitball/com.kalantos.spitball.logic.GameActivity/android.view.ViewRootImpl@6b638f0 (visibility=0)
+Stats since: 44720601520ns
+Total frames rendered: 104
+Janky frames: 77 (74.04%)
+90th percentile: 73ms
+95th percentile: 81ms
+99th percentile: 113ms
+Number Missed Vsync: 43
+Number High input latency: 0
+Number Slow UI thread: 33
+Number Slow bitmap uploads: 7
+Number Slow issue draw commands: 77
+
+View hierarchy:
+
+  com.kalantos.spitball/com.kalantos.spitball.GUI.MenuActivity/android.view.ViewRootImpl@8f90fcb
+  19 views, 18.41 kB of display lists
+
+  com.kalantos.spitball/com.kalantos.spitball.GUI.ChooseDifficultyActivity/android.view.ViewRootImpl@6ddc3a8
+  11 views, 10.66 kB of display lists
+
+  com.kalantos.spitball/com.kalantos.spitball.logic.GameActivity/android.view.ViewRootImpl@6b638f0
+  75 views, 88.18 kB of display lists
+
+
+Total ViewRootImpl: 3
+Total Views:        105
+Total DisplayList:  117.24 kB
+
