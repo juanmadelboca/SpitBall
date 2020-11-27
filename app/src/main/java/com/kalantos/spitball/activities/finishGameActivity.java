@@ -2,15 +2,14 @@ package com.kalantos.spitball.activities;
 
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
-import com.google.android.gms.ads.AdListener;
-import com.google.android.gms.ads.AdRequest;
-import com.google.android.gms.ads.InterstitialAd;
+
+import androidx.appcompat.app.AppCompatActivity;
+
 import com.kalantos.spitball.R;
 import com.kalantos.spitball.engine.Timer;
 
@@ -18,30 +17,12 @@ public class finishGameActivity extends AppCompatActivity {
 
     ImageView winnerImage;
     TextView winnerBanner;
-    InterstitialAd mInterstitialAd;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_finish_game);
         winnerBanner = (TextView) findViewById(R.id.textView);
-        //ADS////////////////
-        mInterstitialAd = new InterstitialAd(this);
-        /*
-        * test-id:ca-app-pub-3940256099942544/1033173712
-        * admob-id:ca-app-pub-4117912268761040/4576104417
-        * */
-        mInterstitialAd.setAdUnitId("ca-app-pub-4117912268761040/4576104417");
-
-        mInterstitialAd.setAdListener(new AdListener() {
-            @Override
-            public void onAdClosed() {
-                requestNewInterstitial();
-                restartGame();
-            }
-        });
-
-        requestNewInterstitial();
         chooseWinner();
 
 	    final View decorView = getWindow().getDecorView();
@@ -80,7 +61,7 @@ public class finishGameActivity extends AppCompatActivity {
                 } catch (InterruptedException e) {
                     Log.e("ADS", e.getMessage());
                 }
-                showAd();
+                restartGame();
                 try {
                     Thread.sleep(4000);
                 } catch (InterruptedException e) {
@@ -126,34 +107,6 @@ public class finishGameActivity extends AppCompatActivity {
             winnerImage.setImageDrawable(pic);
         }
 
-    }
-
-    private void showAd(){
-    /*
-    * Show Ad.
-    * */
-        this.runOnUiThread(new Runnable() {
-            @Override
-            public void run() {
-                if (mInterstitialAd.isLoaded()) {
-                    mInterstitialAd.show();
-                    Log.d("FINISHGAME", "CARGO BIEN");
-                } else {
-                    restartGame();
-                    Log.d("FINISHGAME", "Fallo la carga");
-                }
-            }
-        });
-    }
-
-    private void requestNewInterstitial() {
-    /*
-    * Request new Ad.
-    * */
-        AdRequest adRequest = new AdRequest.Builder()
-                .addTestDevice("SEE_YOUR_LOGCAT_TO_GET_YOUR_DEVICE_ID")
-                .build();
-        mInterstitialAd.loadAd(adRequest);
     }
 
     private void restartGame(){

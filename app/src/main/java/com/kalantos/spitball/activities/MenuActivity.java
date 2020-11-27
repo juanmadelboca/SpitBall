@@ -1,14 +1,12 @@
 package com.kalantos.spitball.activities;
 
 import android.content.Intent;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentTransaction;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.Toast;
+
 import com.kalantos.spitball.R;
 import com.kalantos.spitball.engine.Timer;
 import com.kalantos.spitball.fragments.ChooseDifficultyFragment;
@@ -17,7 +15,9 @@ import com.kalantos.spitball.fragments.MenuFragment;
 import com.kalantos.spitball.utils.HTTPSocket;
 import org.json.JSONException;
 import org.json.JSONObject;
-import java.util.concurrent.ExecutionException;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentManager;
+import androidx.fragment.app.FragmentTransaction;
 
 
 public class MenuActivity extends AppCompatActivity {
